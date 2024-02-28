@@ -28,24 +28,24 @@ function SignIn() {
 							</div>
 							{/* sign in button */}
 							<div>
-								<button className="mt-10 py-4 block bg-primary01 w-full rounded-b2">
+								<button className="mt-10 py-4 block bg-primary01 w-full rounded-b2 hover:bg-primary03 duration-300">
 									<span className="text-16 text-light01">Sign In</span>
 								</button>
 								{/* password button */}
-								<button className="mt-4">
+								<button className="mt-4 hover:text-primary04 duration-150">
 									<span className="text-14">Forgot your password?</span>
 								</button>
 							</div>
 						</form>
 						<div>
-							<button className="mt-10 py-4 w-full flex items-center justify-center gap-4 bg-gray200 rounded-b2 shadow-bs1">
+							<button className="mt-10 py-4 w-full flex items-center justify-center gap-4 bg-gray200 rounded-b2 shadow-bs1 hover:bg-gray300 duration-300">
 								<div>G</div>
 								<span className="text-16">Continue with Google</span>
 							</button>
 						</div>
 					</div>
 				</div>
-				<button className="w-full text-center">
+				<button className="w-full text-center hover:text-primary04 duration-150">
 					<span className="mb-4 inline-block text-12 text-primary01">Create an Account?</span>
 				</button>
 				{/* Right side Image */}
