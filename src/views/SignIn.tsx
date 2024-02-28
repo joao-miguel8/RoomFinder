@@ -1,10 +1,10 @@
 function SignIn() {
 	return (
-		<section className="border-4 p-2 h-screen">
+		<section className="p-2 h-screen">
 			{/* Left side sign in form */}
-			<div className="flex flex-col justify-between border-2 h-full">
+			<div className="mx-auto h-full max-w-[800px] flex flex-col justify-between lg:shadow-bs1 rounded-b2">
 				{/* Form Sign in + Password Input Sign in btn continue With Google btn + Forgot password btn  */}
-				<div>
+				<div className="mx-6">
 					<div>
 						<div className="text-center">
 							<h4 className="mt-6">Logo</h4>
@@ -17,17 +17,17 @@ function SignIn() {
 								<label htmlFor="email" className="text-14 text-dark01">
 									Email Address
 								</label>
-								<input id="email" name="email" type="text" placeholder="Enter your email address" className="bg-transparent border-b text-18" />
+								<input id="email" name="email" type="text" placeholder="Enter your email address" className="mt-2 bg-transparent border-b text-18 outline-none" />
 							</div>
 							{/* Password Container */}
-							<div className="mt-4 flex flex-col">
+							<div className="mt-8 flex flex-col">
 								<label htmlFor="password" className="text-14">
 									Password Address
 								</label>
-								<input id="password" name="password" type="text" placeholder="Enter your password" className="bg-transparent border-b text-18" />
+								<input id="password" name="password" type="text" placeholder="Enter your password" className="mt-2 bg-transparent border-b text-18 outline-none" />
 							</div>
 							{/* sign in button */}
-							<div className="border-2">
+							<div>
 								<button className="mt-10 py-4 block bg-primary01 w-full rounded-b2">
 									<span className="text-16 text-light01">Sign In</span>
 								</button>
@@ -45,8 +45,8 @@ function SignIn() {
 						</div>
 					</div>
 				</div>
-				<button className="w-full text-center border-2">
-					<span className="inline-block text-12 text-primary01">Create an Account?</span>
+				<button className="w-full text-center">
+					<span className="mb-4 inline-block text-12 text-primary01">Create an Account?</span>
 				</button>
 				{/* Right side Image */}
 				{/* <div className="flex-1 bg-green-300"></div> */}
