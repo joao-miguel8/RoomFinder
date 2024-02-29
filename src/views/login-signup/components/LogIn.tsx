@@ -13,26 +13,26 @@ const LogIn = () => {
 				<form className="mt-10" action="">
 					{/* Email Container */}
 					<div className="flex flex-col">
-						<label htmlFor="email" className="text-14 text-dark01">
+						<label htmlFor="email" className="text-14 font-semibold text-dark01">
 							Email Address
 						</label>
 						<input required id="email" name="email" type="email" placeholder="Enter your email address" className="mt-2 bg-transparent border-b text-18 outline-none" />
 					</div>
 					{/* Password Container */}
 					<div className="mt-8 flex flex-col">
-						<label htmlFor="password" className="text-14">
+						<label htmlFor="password" className="text-14 font-semibold text-dark01">
 							Password
 						</label>
 						<input required id="password" name="password" type="password" placeholder="Enter your password" className="mt-2 bg-transparent border-b text-18 outline-none" />
 					</div>
 					{/* sign in button */}
 					<div>
+						{/* password button */}
+						<button className="mt-6 font-semibold text-dark01 hover:text-primary04 duration-150">
+							<span className="text-14">Forgot your password?</span>
+						</button>
 						<button className="mt-10 py-4 block bg-primary01 w-full rounded-b2 hover:bg-primary03 duration-300">
 							<span className="text-16 text-light01">Sign In</span>
-						</button>
-						{/* password button */}
-						<button className="mt-4 hover:text-primary04 duration-150">
-							<span className="text-14">Forgot your password?</span>
 						</button>
 					</div>
 				</form>
