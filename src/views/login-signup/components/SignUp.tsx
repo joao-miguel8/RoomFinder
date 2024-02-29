@@ -1,4 +1,4 @@
-const LogIn = () => {
+const SignUp = () => {
 	return (
 		<div className="flex flex-col justify-between flex-1">
 			{/* Form Sign in + Password Input Sign in btn continue With Google btn + Forgot password btn  */}
@@ -6,32 +6,28 @@ const LogIn = () => {
 				<div>
 					<div className="text-center">
 						<h4 className="mt-6">Logo</h4>
-						<h1 className="mt-10 text-18 text-dark01">Log In</h1>
-						<p className="text-14 text-dark01">Enter your details to Log in.</p>
+						<h1 className="mt-10 text-24 lg:text-28 font-bold text-dark01">Create your account</h1>
+						<p className="text-14 text-dark01">Enter your details to continue.</p>
 					</div>
 					<form className="mt-10" action="">
 						{/* Email Container */}
 						<div className="flex flex-col">
-							<label htmlFor="email" className="text-14 text-dark01">
+							<label htmlFor="email" className="text-14 font-semibold text-dark01">
 								Email Address
 							</label>
 							<input id="email" name="email" type="text" placeholder="Enter your email address" className="mt-2 bg-transparent border-b text-18 outline-none" />
 						</div>
 						{/* Password Container */}
 						<div className="mt-8 flex flex-col">
-							<label htmlFor="password" className="text-14">
-								Password Address
+							<label htmlFor="password" className="text-14 font-semibold">
+								Password
 							</label>
-							<input id="password" name="password" type="text" placeholder="Enter your password" className="mt-2 bg-transparent border-b text-18 outline-none" />
+							<input id="password" name="password" type="text" placeholder="Create your password" className="mt-2 bg-transparent border-b text-18 outline-none" />
 						</div>
 						{/* sign in button */}
 						<div>
 							<button className="mt-10 py-4 block bg-primary01 w-full rounded-b2 hover:bg-primary03 duration-300">
-								<span className="text-16 text-light01">Sign In</span>
-							</button>
-							{/* password button */}
-							<button className="mt-4 hover:text-primary04 duration-150">
-								<span className="text-14">Forgot your password?</span>
+								<span className="text-16 text-light01">Create Account</span>
 							</button>
 						</div>
 					</form>
@@ -43,11 +39,14 @@ const LogIn = () => {
 					</div>
 				</div>
 			</div>
-			<button className="w-full text-center hover:text-primary04 duration-150">
-				<span className="mb-4 inline-block text-12 text-primary01">Create an Account?</span>
-			</button>
+			<div className="border-2 text-center">
+				<span className="text-12 lg:text-14">Already a member?</span>
+				<button className="text-center hover:text-primary04 duration-150">
+					<span className="ml-1 mb-4 inline-block text-12 lg:text-14 text-primary01">Log in</span>
+				</button>
+			</div>
 		</div>
 	);
 };
 
-export default LogIn;
+export default SignUp;
