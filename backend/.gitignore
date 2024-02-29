@@ -1,0 +1,27 @@
+
+.idea
+*.iml
+out
+gen
+
+# VSCODE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# LOCAL HISTORY FOR VSCODE
+.history/
+
+# BUILT VSCODE EXTENSION
+*.vsix
+
+# TEST
+coverage
+
+# Dirs
+node_modules
+build
+
