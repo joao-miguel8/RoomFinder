@@ -1,9 +1,9 @@
-import SignIn from "./views/SignIn";
+import LoginSignUp from "./views/login-signup/LoginSignUp";
 
 function App() {
 	return (
 		<div>
-			<SignIn />
+			<LoginSignUp />
 		</div>
 	);
 }

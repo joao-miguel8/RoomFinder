@@ -1,4 +1,4 @@
-function SignIn() {
+const LoginSignUp = () => {
 	return (
 		<section className="py-4 h-screen">
 			{/* Left side sign in form */}
@@ -56,6 +56,6 @@ function SignIn() {
 			</div>
 		</section>
 	);
-}
+};
 
-export default SignIn;
+export default LoginSignUp;
