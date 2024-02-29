@@ -6,7 +6,7 @@ const LogIn = () => {
 				<div>
 					<div className="text-center">
 						<h4 className="mt-6">Logo</h4>
-						<h1 className="mt-10 text-18 text-dark01">Log In</h1>
+						<h1 className="mt-10 text-24 lg:text-28 font-bold text-dark01">Log In</h1>
 						<p className="text-14 text-dark01">Enter your details to Log in.</p>
 					</div>
 					<form className="mt-10" action="">
@@ -20,7 +20,7 @@ const LogIn = () => {
 						{/* Password Container */}
 						<div className="mt-8 flex flex-col">
 							<label htmlFor="password" className="text-14">
-								Password Address
+								Password
 							</label>
 							<input id="password" name="password" type="text" placeholder="Enter your password" className="mt-2 bg-transparent border-b text-18 outline-none" />
 						</div>
@@ -44,7 +44,7 @@ const LogIn = () => {
 				</div>
 			</div>
 			<button className="w-full text-center hover:text-primary04 duration-150">
-				<span className="mb-4 inline-block text-12 text-primary01">Create an Account?</span>
+				<span className="mb-4 inline-block text-12 lg:text-14 text-primary01">Create an Account?</span>
 			</button>
 		</div>
 	);
