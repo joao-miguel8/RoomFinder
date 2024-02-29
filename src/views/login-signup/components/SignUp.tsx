@@ -17,14 +17,14 @@ const SignUp = () => {
 							<label htmlFor="email" className="text-14 font-semibold text-dark01">
 								Email Address
 							</label>
-							<input id="email" name="email" type="text" placeholder="Enter your email address" className="mt-2 bg-transparent border-b text-18 outline-none" />
+							<input required id="email" name="email" type="email" placeholder="Enter your email address" className="mt-2 bg-transparent border-b text-18 outline-none" />
 						</div>
 						{/* Password Container */}
 						<div className="mt-8 flex flex-col">
 							<label htmlFor="password" className="text-14 font-semibold">
 								Password
 							</label>
-							<input id="password" name="password" type="text" placeholder="Create your password" className="mt-2 bg-transparent border-b text-18 outline-none" />
+							<input required id="password" name="password" type="password" placeholder="Create your password" className="mt-2 bg-transparent border-b text-18 outline-none" />
 						</div>
 						{/* sign in button */}
 						<div>
@@ -41,7 +41,7 @@ const SignUp = () => {
 					</div>
 				</div>
 			</div>
-			<div className="border-2 text-center">
+			<div className="text-center">
 				<span className="text-12 lg:text-14">Already a member?</span>
 				<button className="text-center hover:text-primary04 duration-150">
 					<span className="ml-1 mb-4 inline-block text-12 lg:text-14 text-primary01">Log in</span>
