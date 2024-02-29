@@ -1,3 +1,5 @@
+import { FcGoogle } from "react-icons/fc";
+
 const SignUp = () => {
 	return (
 		<div className="flex flex-col justify-between flex-1">
@@ -27,14 +29,14 @@ const SignUp = () => {
 						{/* sign in button */}
 						<div>
 							<button className="mt-10 py-4 block bg-primary01 w-full rounded-b2 hover:bg-primary03 duration-300">
-								<span className="text-16 text-light01">Create Account</span>
+								<span className="text-16 font-semibold text-light01">Create Account</span>
 							</button>
 						</div>
 					</form>
 					<div>
-						<button className="mt-10 py-4 w-full flex items-center justify-center gap-4 bg-gray200 rounded-b2 shadow-bs1 hover:bg-gray300 duration-300">
-							<div>G</div>
-							<span className="text-16">Continue with Google</span>
+						<button className="mt-4 py-4 w-full flex items-center justify-center gap-4 bg-gray200 rounded-b2 shadow-bs1 hover:bg-gray300 duration-300">
+							<FcGoogle size={"1.6rem"} />
+							<span className="text-16 font-semibold">Continue with Google</span>
 						</button>
 					</div>
 				</div>
